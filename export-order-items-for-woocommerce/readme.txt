@@ -1,5 +1,5 @@
 === Export Order Items for WooCommerce ===
-Contributors:      aspengrovestudios, annaqq
+Contributors:      aspengrovestudios, berrypress
 Tags:              woocommerce, orders, order items, line items, sales, report, reporting, export, csv, excel, spreadsheet
 Requires at least: 3.5
 Requires PHP:      7.3
