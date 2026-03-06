@@ -1,10 +1,10 @@
 === Export Order Items for WooCommerce ===
-Contributors:      aspengrovestudios, berrypress
+Contributors:      berrypress
 Tags:              woocommerce, orders, order items, line items, sales, report, reporting, export, csv, excel, spreadsheet
 Requires at least: 3.5
 Requires PHP:      7.3
-Tested up to:      6.6.1
-Stable tag:        1.0.15
+Tested up to:      6.9
+Stable tag:        1.0.16
 License:           GPLv3 or later
 License URI:       https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -56,34 +56,24 @@ Over 95% of our users find the free version is perfect for their store. Upgrade 
 ### Addons & Integrations
 Looking to automate your reports, share them on the frontend of your site, or create in-depth sales reports? We have more free and premium reporting tools for WooCommerce.
 
-- [Extra Product Options Addon](https://wpzone.co/product/extra-product-options-addon-for-export-order-items-pro/) - export fields from the [WooCommerce Extra Product Options](https://codecanyon.net/item/woocommerce-extra-product-options/7908619) plugin
-- [Scheduled Email Reports for WooCommerce](https://wpzone.co/product/scheduled-email-reports-for-woocommerce/) - plugin to automate report sending
-- [Frontend Reports for WooCommerce](https://wpzone.co/product/frontend-reports-for-woocommerce/) - display reports on the frontend of your site
-- [Product Sales Report for WooCommerce](https://wordpress.org/plugins/product-sales-report-for-woocommerce/) (Free and [Pro](https://wordpress.org/plugins/product-sales-report-for-woocommerce/) - create sales reports for your store
+- [Ninjalytics](https://wordpress.org/plugins/product-sales-report-for-woocommerce/) (Free and [Pro](https://berrypress.com/product/woocommerce/ninjalytics/) - create sales reports for your store
+- [Scheduled Email Reports for WooCommerce](https://berrypress.com/product/woocommerce/scheduled-email-reports/) - plugin to automate report sending
+- [Frontend Reports for WooCommerce](https://berrypress.com/product/woocommerce/frontend-reports-for-woocommerce/) - display reports on the frontend of your site
+- [Extra Product Options Addon](https://berrypress.com/product/woocommerce/extra-product-options-addon/) - export fields from the [WooCommerce Extra Product Options](https://codecanyon.net/item/woocommerce-extra-product-options/7908619) plugin
 
 
 If you like this plugin, please consider leaving a comment or review.
 
-## You may also like these plugins
-[WP Zone](https://wpzone.co/) has built a bunch of plugins, add-ons, and themes. Check out other favorites here on the repository and don’t forget to leave a 5-star review to help others in the community decide.
+[BerryPress](https://berrypress.com/) has built a range of powerful plugins for WooCommerce and WordPress. Check out some of our favorites below — and don’t forget to leave a ⭐⭐⭐⭐⭐ review to help others in the community discover them!
 
-* [Product Sales Report for WooCommerce](https://wordpress.org/plugins/product-sales-report-for-woocommerce/) - setup a custom sales report for the products in your WooCommerce store with toggle sorting options. Including or excluding items based on date range, sale status, product category and id, define display order, choose what fields to include, and generate your report with a click.
-* [Replace Image](https://wordpress.org/plugins/replace-image/) – keep the same URL when uploading to the WordPress media library
-* [Force Update Check for Plugins and Themes](https://wordpress.org/plugins/force-update-check-for-plugins-and-themes/) -force Update Check for Plugins and Themes forces WordPress to run a theme and plugin update check whenever you visit the WordPress updates page
-* [Connect SendGrid for Emails](https://wordpress.org/plugins/connect-sendgrid-for-emails/) -  connect SendGrid for Emails is a third-party fork of (and a drop-in replacement for) the official SendGrid plugin
-* [Custom CSS and JavaScript](https://wordpress.org/plugins/custom-css-and-javascript/) - allows you to add custom site-wide CSS styles and JavaScript code to your WordPress site. Useful for overriding your theme’s styles and adding client-side functionality.
-* [Disable User Registration Notification Emails](https://wordpress.org/plugins/disable-user-registration-notification-emails/) - when this plugin is activated, it disables the notification sent to the admin email when a new user account is registered.
-* [Inline Image Upload for BBPress](https://wordpress.org/plugins/image-upload-for-bbpress/) - enables the TinyMCE WYSIWYG editor for BBPress forum topics and replies and adds a button to the editor’s “Insert/edit image” dialog that allows forum users to upload images from their computer and insert them inline into their posts.
-* [Password Strength for WooCommerce](https://wordpress.org/plugins/password-strength-for-woocommerce/) - disables password strength enforcement in WooCommerce.
-* [Potent Donations for WooCommerce](https://wordpress.org/plugins/donations-for-woocommerce/) – acceptance donations through your WooCommerce store
-* [Shortcodes for Divi](https://wordpress.org/plugins/shortcodes-for-divi/) - allows to use Divi Library layouts as shortcodes everywhere where text comes.
-* [Stock Export and Import for WooCommerce](https://wordpress.org/plugins/stock-export-and-import-for-woocommerce/) - generates reports on the stock status (in stock / out of stock) and quantity of individual WooCommerce products.
-* [Random Quiz Generator for LifterLMS](https://wordpress.org/plugins/random-quiz-addon-for-lifterlms/) - pull a random set of questions from your quiz so users never get the same question twice when retaking or setting up a practice quiz.
-* [WP and Divi Icons](https://wordpress.org/plugins/wp-and-divi-icons/) - adds over 660 custom outline SVG icons to your website. SVG icons are vector icons, so they are sharp and look good on any screen at any size.
-* [WP Layouts](https://wordpress.org/plugins/wp-layouts/) - the best way to organize, import, and export your layouts, especially if you have multiple websites.
-* [WP Squish](https://wordpress.org/plugins/wp-squish/) - reduce the amount of storage space consumed by your WordPress installation through the application of user-definable JPEG compression levels and image resolution limits to uploaded images.
+- [Export Order Items for WooCommerce](https://wordpress.org/plugins/export-order-items-for-woocommerce/) — Export detailed order data for every sale in your WooCommerce store. Simplify fulfillment, create accounting reports in just a few clicks, and download CSV files for easy sharing and compatibility.
+- [Inline Image Upload for BBPress](https://wordpress.org/plugins/image-upload-for-bbpress/) — Add a TinyMCE WYSIWYG editor to BBPress forums and enable inline image uploads, so users can easily attach and display images within their posts.
+- [PhotoBerry Studio](https://wordpress.org/plugins/photoberry-studio/) — Create beautiful, customizable product photo galleries directly in your WordPress dashboard.
+- [Automatic Product Categories](https://berrypress.com/product/woocommerce/automatic-product-categories/) — Available as a free version and Pro. Automatically assign products to categories based on custom rules, saving you time and keeping your store organized.
+- [Live Carts](https://berrypress.com/product/woocommerce/live-carts/) — Available as a free version and Pro. View and analyze live shopping carts in real time to understand user behavior and optimize conversions.
+- [Customer Address Change Notification for WooCommerce](https://wordpress.org/plugins/customer-address-change-notification-for-woocommerce/) — Get instant notifications when customers update their shipping or billing address, helping you stay on top of changes and prevent delivery issues.
 
-To view WP Zone's premium WordPress plugins and themes, visit our [WordPress products catalog page](https://wpzone.co/product/)
+To view BerryPress's premium WordPress plugins and themes, visit our [WordPress products catalog page](https://berrypress.com/shop/).
 
 Enjoy!
 
@@ -110,7 +100,7 @@ In some cases output may be affected by the limited precision of PHP's floating 
 Export Order Items generates a report with the items from an individual order, specific purchase, or specific customer for order fulfillment or accounting. [Product Sales Report](https://wordpress.org/plugins/product-sales-report-for-woocommerce/) is for creating a report about all your products or a group of products for comparison and sales performance.
 = Can I schedule my reports to send automatically? =
 
-We built [Scheduled Email Reports for WooCommerce](https://wpzone.co/product/scheduled-email-reports-for-woocommerce/) as a premium add-on that can be used to schedule reports from both Export Order Items and Product Sales Report.
+We built [Scheduled Email Reports for WooCommerce](https://berrypress.com/product/woocommerce/scheduled-email-reports/) as a premium add-on that can be used to schedule reports from both Export Order Items and Product Sales Report.
 
 = Where can I get your other add-ons for WooCommerce? =
 
@@ -123,6 +113,9 @@ After you install and activate the Export Order Items for WooCommerce plugin, fr
 1. Report generation screen
 
 == Changelog ==
+
+= 1.0.16 March 6, 2026 =
+* Update author, tested up to
 
 = 1.0.15 May 16, 2023 =
 * Add High Performance Order Tables support (beta)

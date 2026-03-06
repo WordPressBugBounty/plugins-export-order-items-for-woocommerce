@@ -4,9 +4,11 @@
 
 #ags-xoiwc-settings-tabs {
   margin           : 0;
-  background-color : $dsMediumPurple;
+  background-color : #fff;
   overflow         : hidden;
-  border-top: 1px solid $wpz_secondary;
+  border-top: 1px solid $middleBorderColor;
+  border-bottom: 1px solid $middleBorderColor;
+  padding-left: 10px;
 
   li {
     margin      : 0;
@@ -14,17 +16,17 @@
     display     : inline-block;
     font-weight : 500;
 
-    font-size   : 12px;
+    font-size   : 13px;
 
     @media (max-width : 600px) {
       float     : none;
       display   : block;
-      font-size : 12px;
+      font-size : 13px;
       }
 
     a {
       background-color   : transparent;
-      color              : rgba(255, 255, 255, 0.9);
+      color              : $dsDarkPurple;
       cursor             : pointer;
       padding            : 13px 16px !important;
       outline            : none;
@@ -36,15 +38,14 @@
       letter-spacing     : 0.29px;
 
       &:hover {
-        color            : #FFF;
-        background-color : $dsMediumPurple;
+        color            : $mainColor;
         }
       }
 
     &.ags-xoiwc-settings-active a {
       opacity          : 1;
-      background-color : $wpz_secondary ;
-      color            : #FFF;
+      color            : $mainColor;
+      border-bottom: 1px solid $mainColor;
       }
     }
   }

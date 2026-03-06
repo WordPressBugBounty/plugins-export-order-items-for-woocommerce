@@ -7,7 +7,7 @@
             <div id="ags-xoiwc-settings-header-links">
                 <a id="ags-xoiwc-settings-header-link-review" href="https://wordpress.org/plugins/export-order-items-for-woocommerce/#reviews"
                    target="_blank"><?php echo esc_html__('Leave Us A Review', 'export-order-items-for-woocommerce') ?></a>
-                <a id="ags-xoiwc-settings-header-link-upgrade" href="https://wpzone.co/product/export-order-items-pro-for-woocommerce/?utm_source=export-order-items-for-woocommerce&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link"
+                <a id="ags-xoiwc-settings-header-link-upgrade" href="https://berrypress.com/product/woocommerce/export-order-items-pro/?utm_source=export-order-items-for-woocommerce&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link"
                    target="_blank"><?php echo esc_html__('Upgrade To Pro', 'export-order-items-for-woocommerce') ?></a>
             </div>
         </div>
@@ -29,11 +29,11 @@
 		        return;
 	        }
 
-	        if (hm_xoiwc_is_hpos()) {
-		        echo('<p class="ags-xoiwc-notification ags-xoiwc-notification-warning">');
-		        esc_html_e('You are using High Performance Order Storage (HPOS) in WooCommerce. This plugin\'s HPOS support is currently in beta, so please validate the output as necessary.', 'export-order-items-for-woocommerce');
-		        echo('</p>');
-	        }
+//	        if (hm_xoiwc_is_hpos()) {
+//		        echo('<p class="ags-xoiwc-notification ags-xoiwc-notification-warning">');
+//		        esc_html_e('You are using High Performance Order Storage (HPOS) in WooCommerce. This plugin\'s HPOS support is currently in beta, so please validate the output as necessary.', 'export-order-items-for-woocommerce');
+//		        echo('</p>');
+//	        }
 
 	        ?>
 
@@ -153,7 +153,7 @@
             </p>
 
             <p class="ags-xoiwc-notification">
-               ' . sprintf(esc_html__('%sNote:%s Line item refunds created during the export period (regardless of the original order date) will be included in the export as negative values if the status of the line item refund matches one of the selected order statuses (e.g. Completed), independent of the status of the original order. Note that some of the fields in the Report Fields list will be blank for line item refunds. If you would like to disable this behavior, please check out our %sPro plugin%s, which also applies status filtering differently for line item refunds.', 'export-order-items'), '<strong>', '</strong>', '<a href="https://wpzone.co/product/export-order-items-pro-for-woocommerce/?utm_source=export-order-items&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link" target="_blank">', '</a>') . '
+               ' . sprintf(esc_html__('%sNote:%s Line item refunds created during the export period (regardless of the original order date) will be included in the export as negative values if the status of the line item refund matches one of the selected order statuses (e.g. Completed), independent of the status of the original order. Note that some of the fields in the Report Fields list will be blank for line item refunds. If you would like to disable this behavior, please check out our %sPro plugin%s, which also applies status filtering differently for line item refunds.', 'export-order-items'), '<strong>', '</strong>', '<a href="https://berrypress.com/product/woocommerce/export-order-items-pro/?utm_source=export-order-items&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link" target="_blank">', '</a>') . '
                 </p> 
         </form> 
      </div> <!-- ags-xoiwc-settings-left-area -->
@@ -164,7 +164,7 @@
             <img src=" ' . plugins_url('images/export_order_items_pro.png', __FILE__) . ' " alt="Export Order Items Pro for WooCommerce" class="widget-thumb"/>
             <div class="inside">
                 <h2>' . esc_html__('Upgrade to Pro', 'export-order-items-for-woocommerce') . '</h2>
-                <p><strong>' . sprintf(esc_html__('Upgrade to %sExport Order Items Pro%s for the following additional features:', 'export-order-items-for-woocommerce'), '<a href="https://wpzone.co/product/export-order-items-pro-for-woocommerce/?utm_source=export-order-items-for-woocommerce&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link" target="_blank">', '</a>') . '</strong></p>
+                <p><strong>' . sprintf(esc_html__('Upgrade to %sExport Order Items Pro%s for the following additional features:', 'export-order-items-for-woocommerce'), '<a href="https://berrypress.com/product/woocommerce/export-order-items-pro/?utm_source=export-order-items-for-woocommerce&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link" target="_blank">', '</a>') . '</strong></p>
                 <ul style="list-style-type: disc; padding-left: 1.5em;">
                     <li>' . esc_html__('Create multiple export presets to save time.', 'export-order-items-for-woocommerce') . '</li>
                     <li>' . esc_html__('Include product variation details.', 'export-order-items-for-woocommerce') . '</li>
@@ -174,7 +174,7 @@
                     <li>' . esc_html__('Export in XLS, XLSX, or HTML format (in addition to CSV).', 'export-order-items-for-woocommerce') . '</li>
                 </ul>
                 <p>' . sprintf(esc_html__('%sReceive a %s discount with the coupon code %sWCEXPORT10%s!%s (Not valid with any other discount)', 'export-order-items-for-woocommerce'), '<strong>', '10%', '<span style="color: #CC4A49;">', '</span>', '</strong>') . '</p>
-                <a href="https://wpzone.co/product/export-order-items-pro-for-woocommerce/?utm_source=export-order-items-for-woocommerce&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link" target="_blank" class="ags-xoiwc-button-secondary">' . esc_html__('Buy Now', 'export-order-items-for-woocommerce') . '</a>
+                <a href="https://berrypress.com/product/woocommerce/export-order-items-pro/?utm_source=export-order-items-for-woocommerce&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link" target="_blank" class="ags-xoiwc-button-secondary">' . esc_html__('Buy Now', 'export-order-items-for-woocommerce') . '</a>
             </div>
         </div>
 
@@ -183,7 +183,7 @@
             <div class="inside">
                 <h2>' . esc_html__('Schedule Email Reports', 'export-order-items-for-woocommerce') . '</h2>
                 <p>' . esc_html__('Automatically send reports as email attachments on a recurring schedule.', 'export-order-items-for-woocommerce') . '</p>
-                <a href="https://wpzone.co/product/scheduled-email-reports-for-woocommerce/?utm_source=export-order-items&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link" target="_blank" class="ags-xoiwc-button-secondary">' . esc_html__('Get the add-on plugin', 'export-order-items-for-woocommerce') . '</a>
+                <a href="https://berrypress.com/product/woocommerce/scheduled-email-reports/?utm_source=export-order-items&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link" target="_blank" class="ags-xoiwc-button-secondary">' . esc_html__('Get the add-on plugin', 'export-order-items-for-woocommerce') . '</a>
             </div>
         </div>
 
@@ -192,7 +192,7 @@
             <div class="inside">
                 <h2>' . esc_html__('Embed Report in Frontend Pages', 'export-order-items-for-woocommerce') . '</h2>
                 <p>' . esc_html__('Display the report or a download link in posts and pages using a shortcode.', 'export-order-items-for-woocommerce') . '</p>
-                <a href="https://wpzone.co/product/frontend-reports-for-woocommerce/?utm_source=export-order-items&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link" target="_blank" class="ags-xoiwc-button-secondary">' . esc_html__('Get the add-on plugin', 'export-order-items-for-woocommerce') . '</a>
+                <a href="https://berrypress.com/product/woocommerce/frontend-reports-for-woocommerce/?utm_source=export-order-items&amp;utm_medium=link&amp;utm_campaign=wp-plugin-upgrade-link" target="_blank" class="ags-xoiwc-button-secondary">' . esc_html__('Get the add-on plugin', 'export-order-items-for-woocommerce') . '</a>
             </div>
         </div> 
              
@@ -200,9 +200,7 @@
 </div> <!-- #ags-xoiwc-settings-settings -->
 
     <div id="ags-xoiwc-settings-addons"> ');
-            define('AGS_XOIWC_ADDONS_URL', 'https://wpzone.co/wp-content/uploads/product-addons/export-order-items-free.json');
-            require_once(dirname(__FILE__) . '/addons/addons.php');
-            AGS_XOIWC_Addons::outputList();
+                require_once(dirname(__FILE__) . '/admin/addons/addons-page.php');
             echo('
     </div>  <!-- #ags-xoiwc-settings-addons -->
 

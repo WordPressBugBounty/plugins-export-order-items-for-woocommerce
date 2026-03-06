@@ -6,7 +6,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 include_once($GLOBALS['woocommerce']->plugin_path().'/includes/admin/reports/class-wc-admin-report.php');
 
-class WC_Admin_Report_HPOS_WPZ extends WC_Admin_Report {
+class WC_Admin_Report_HPOS_WPZ_XOIF extends WC_Admin_Report {
 	
 	private static $tzTransitions;
 	

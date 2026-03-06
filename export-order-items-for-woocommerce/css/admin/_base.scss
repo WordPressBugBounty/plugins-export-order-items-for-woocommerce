@@ -1,19 +1,14 @@
 /*  Settings container */
 #ags-xoiwc-settings-container {
-  width  : 98%;
-  margin : 20px auto;
-
-  @media (max-width : $breakSmall) {
-    width : 90%;
-    }
+  margin: 25px 10px 0 0;
   }
 
 /*  Settings window */
 #ags-xoiwc-settings {
   color                   : $fontColor;
   font-family             : $fontGeneral;
-  font-weight             : $fontWeight;
-  line-height             : $lineHeight;
+  font-weight             : normal;
+  line-height             : $baseLineHeight;
   font-size               : $fontSize;
   -webkit-font-smoothing  : antialiased;
   -moz-osx-font-smoothing : grayscale;
@@ -45,7 +40,7 @@
     margin-top     : 0;
     margin-bottom  : 1em;
     padding-bottom : 0;
-    font-weight    : $fontWeight;
+    font-weight    : normal;
     font-size      : $fontSize;
     line-height    : 2em;
     }

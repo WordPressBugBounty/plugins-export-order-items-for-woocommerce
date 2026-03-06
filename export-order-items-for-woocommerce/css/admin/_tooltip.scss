@@ -28,20 +28,25 @@
     .ags-xoiwc-settings-tooltiptext {
       visibility       : hidden;
       width            : 300px;
-      background-color : #FFF;
-      padding          : 0 20px 20px;
-      box-shadow       : 0 0 35px 0 #E2E1D8;
+        background-color : #3A3A3A;
+        padding          : 20px 20px 30px;
       text-align       : left;
       font-style       : normal;
+        border-radius: 8px;
+        color: #fff;
+        line-height: 1.81em;
+        font-size: 11px;
+
+        a {
+          color: $mainColor;
+          }
 
       span {
         display          : block;
-        margin           : 0 -20px 18px;
-        background-color : $agsMediumGreen;
         color            : #FFF;
         font-weight      : bold;
-        padding          : 10px 20px 8px;
-        font-size        : 15px;
+          font-size        : 14px;
+          margin-bottom: 10px;
         }
 
       /* Position the tooltip text */

@@ -2,21 +2,21 @@
 /**
  * Plugin Name:       Export Order Items for WooCommerce
  * Plugin URI:        https://wordpress.org/plugins/export-order-items-for-woocommerce/
- * Description:       Export order items (products ordered) in CSV (Comma Seperated Values) format, with product, line item, order, and customer data.
- * Version:           1.0.15
- * WC tested up to:   9.1.4
- * Author:            WP Zone
- * Author URI:        https://wpzone.co/?utm_source=export-order-items-for-woocommerce&utm_medium=link&utm_campaign=wp-plugin-credit-link
+ * Description:       Export order items (products ordered) in CSV (Comma Separated Values) format, with product, line item, order, and customer data.
+ * Version:           1.0.16
+ * WC tested up to:   10.5
+ * Author:            BerryPress
+ * Author URI:        https://berrypress.com/product/woocommerce/export-order-items-pro&utm_medium=link&utm_campaign=wp-plugin-credit-link
  * License:           GNU General Public License version 3 or later
  * License URI:       https://www.gnu.org/licenses/gpl-3.0.en.html
  * Text Domain:       export-order-items-for-woocommerce
  * Domain Path:       /languages
- * GitLab Theme URI:  https://gitlab.com/aspengrovestudios/export-order-items-for-woocommerce
+ * GitHub Plugin URI: https://github.com/BerryPress/export-order-items-for-woocommerce
  */
 
 /*
     Export Order Items for WooCommerce
-    Copyright (C) 2024  WP Zone
+    Copyright (C) 2026 BerryPress
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -334,7 +334,7 @@ function hm_xoiwc_export_body($dest, $return = false) {
     // Create a new WC_Admin_Report object
 	if ( $isHpos ) {
 		include_once(__DIR__.'/includes/class-wc-admin-report-hpos.php');
-		$wc_report = new WC_Admin_Report_HPOS_WPZ();
+		$wc_report = new WC_Admin_Report_HPOS_WPZ_XOIF();
 	} else {
 		include_once($woocommerce->plugin_path().'/includes/admin/reports/class-wc-admin-report.php');
 		$wc_report = new WC_Admin_Report();
@@ -666,8 +666,7 @@ add_action('admin_enqueue_scripts', 'hm_xoiwc_admin_enqueue_scripts');
 function hm_xoiwc_admin_enqueue_scripts() {
 
     if ( isset( $_GET["page"] ) &&  $_GET["page"] == "hm_xoiwc" ) {
-        wp_enqueue_style('hm_xoiwc_admin_style', plugins_url('css/export-order-items.min.css', __FILE__));
-        wp_enqueue_style('ags-xoiwc-addons-admin', plugins_url('addons/css/admin.min.css', __FILE__));
+        wp_enqueue_style('hm_xoiwc_admin_style', plugins_url('css/export-order-items.css', __FILE__));
         wp_enqueue_style('pikaday', plugins_url('css/pikaday.css', __FILE__));
         wp_enqueue_script('moment', plugins_url('js/moment.min.js', __FILE__));
         wp_enqueue_script('pikaday', plugins_url('js/pikaday.js', __FILE__));

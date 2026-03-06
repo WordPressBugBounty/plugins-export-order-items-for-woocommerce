@@ -3,14 +3,14 @@
  */
 
 #ags-xoiwc-settings-header {
-  background      : $dsMediumPurple;
+  background      : #fff;
   position        : relative;
   padding         : 16px 23px;
   justify-content : space-between;
   display         : flex;
   flex-wrap       : wrap;
   align-items     : center;
-  border-radius   : 16px 16px 0 0;
+  border-radius: 5px 5px 0 0;
   font-family     : $fontGeneral;
   font-weight     : 600;
 
@@ -32,18 +32,18 @@
       display        : inline-block;
       vertical-align : middle;
       margin-right   : 10px;
-      width          : 25px;
+      width          : 35px;
       }
     h1 {
       margin         : 0;
-      color          : #fff;
+      color          : $dsDarkPurple;
       font-size      : 15px;
       font-weight    : 600;
       display        : inline-block;
       vertical-align : middle;
       }
 
-    @media (max-width : 750px) {
+  @media (max-width : 660px) {
       justify-content : center;
 
       .ags-xoiwc-settings-logo {
@@ -62,11 +62,10 @@
 
 #ags-xoiwc-settings-header-links a {
   text-decoration     : none;
-  color               : #fff;
+  color               : $dsMainPurple ;
   font-size           : 12px;
   font-weight         : 500;
-  //margin-left         : 20px;
-  padding             : 8px 16px 8px 23px;
+  padding             : 8px;
   display             : inline-block;
   border-radius       : 4px;
   background-size     : 14px;
@@ -74,13 +73,8 @@
   background-position : left center;
   box-shadow          : none;
 
-  @media (max-width: 500px) {
-    display: none;
-    }
-
   &:hover {
     opacity : 1;
-    color   : #fff;
   }
 
   &.active {

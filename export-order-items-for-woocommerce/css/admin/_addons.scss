@@ -1,0 +1,144 @@
+#ags-xoiwc-settings-addons {
+
+  .berrypress-addons-page {
+    margin      : 20px 0;
+    font-family : "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica", "Arial", sans-serif;
+    }
+
+  .berrypress-addons-page .addons-header {
+    text-align    : center;
+    margin-bottom : 40px;
+    padding       : 20px;
+    }
+
+  .berrypress-addons-grid {
+    display               : grid;
+    grid-template-columns : repeat(auto-fit, minmax(350px, 1fr));
+    gap                   : 20px;
+    margin                : 30px 0;
+    }
+
+  .berrypress-addon-item {
+    margin         : 0;
+    padding        : 2rem 1rem;
+    text-align     : center;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    position       : relative;
+    background     : #fff;
+    border-radius  : 10px;
+    border         : 1px solid #e6e9f4;
+    transition     : transform 0.4s ease;
+    }
+
+  .berrypress-addon-item:hover {
+    transform  : translateY(-2px);
+    box-shadow : 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+  .berrypress-addon-icon {
+    margin-bottom : 20px;
+    }
+
+  .berrypress-addon-icon img {
+    width  : 40px;
+    height : 40px;
+    }
+
+  .berrypress-addon-icon img:hover {
+    transform : scale(1.05);
+    }
+
+  .berrypress-addon-item h3 {
+    margin : 0 0 15px 0;
+    }
+
+  .berrypress-addon-item p {
+    color         : #666;
+    margin-bottom : 20px;
+    line-height   : 1.6;
+    }
+
+  .berrypress-addon-features {
+    list-style : none;
+    padding    : 0;
+    margin     : 0 0 20px 0;
+    text-align : left;
+    }
+
+  .berrypress-addon-features li {
+    border-bottom : 1px solid #e6e9f4;
+    position      : relative;
+    padding       : 5px 0 5px 20px;
+    }
+
+  .berrypress-addon-features li:before {
+    content     : "✓";
+    position    : absolute;
+    left        : 0;
+    color       : #0070f0;
+    font-weight : bold;
+    }
+
+  .berrypress-addon-features li:last-child {
+    border-bottom : none;
+    }
+
+  .berrypress-product-badge {
+    position       : absolute;
+    top            : 1rem;
+    right          : 1rem;
+    font-size      : 0.75rem;
+    font-weight    : 600;
+    padding        : 0.15rem 0.55rem;
+    border-radius  : 4px;
+    text-transform : uppercase;
+    background     : #e6f0ff;
+    color          : #1658f8;
+    }
+
+  /* Box */
+  .berrypress-box-cta {
+    text-align    : center;
+    background    : #f3f5f9;
+    padding       : 30px;
+    border-radius : 8px;
+    margin-top    : 30px;
+    }
+
+  .berrypress-box-cta h3 {
+    margin : 0 0 15px 0;
+    }
+
+  .berrypress-box-cta p {
+    color     : #5a607f;
+    font-size : 14px;
+    margin: 0 0 14px;
+    }
+
+  a.berrypress-btn-primary {
+    display : inline-block;
+    }
+
+  .berrypress-btn-primary {
+    cursor           : pointer;
+    padding          : 2px 24px;
+    border-radius    : 5px;
+    font-size        : 14px;
+    font-weight      : 500;
+    line-height      : 24px;
+    text-align       : center;
+    transition       : background 0.3s ease, opacity 0.3s ease;
+    background-color : #0070f0;
+    color            : #fff;
+    border-color     : #0070f0;
+    white-space      : nowrap;
+    text-decoration  : none;
+
+    &:hover {
+
+      color            : #fff;
+      }
+    }
+  }

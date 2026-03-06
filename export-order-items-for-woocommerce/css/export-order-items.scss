@@ -21,3 +21,8 @@ This file (or the corresponding source CSS file) has been modified by Dominika R
 @import "admin/tabs";
 @import "admin/tooltip";
 @import "admin/settings-panel";
+@import "admin/addons";
+
+body.woocommerce_page_hm_xoiwc #wpcontent {
+  background-color: #f3f5f9;
+  }
